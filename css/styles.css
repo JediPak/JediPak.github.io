@@ -6,7 +6,7 @@
         }
         .fixed-bg {
             /*background-image: url("city_by_madspartan013-d5etmml.jpg");*/
-            background-image: url("img/night_star.jpg");
+            background-image: url("night_star.jpg");
             min-height: 600px;
             background-attachment: fixed;
             background-position: center;
@@ -22,14 +22,14 @@
         .lights {
             height:800px;
              /*background-image: url("bleak_house_by_mattiasa.jpg");*/
-            background-image: url("img/lights.jpg");
+            background-image: url("lights.jpg");
             background-size: cover;
             margin-top: -13%;
         }
         .tree {
             height:800px;
              /*background-image: url("bleak_house_by_mattiasa.jpg");*/
-            background-image: url("img/tree.jpg");
+            background-image: url("tree.jpg");
             background-size: cover;
         }
         #about_me {
