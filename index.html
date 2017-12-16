@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Questrial|Quicksand|Vollkorn+SC|Rubik+Mono+One|Playfair+Display+SC" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" class="links">HOME</a>
+        <a href="#news" class="links">PROJECTS</a>
+        <a href="#ABOUTME" class="links">ABOUT ME</a>
+        <a href="#contact" class="links">CONTACT</a>
+    </div>
+
+    <div class="fixed-bg">
+        <div class = "para">
+            <p class = "header fade" id="fade">Hello,<br> <span style="font-size: 200px">I'm Jedi Pak</span></p>
+        </div>
+        <script type="text/javascript">
+            $("#fade").hide();
+            $("#fade").fadeIn(3000);
+        </script>
+    </div>
+
+    <!--Project-->
+    <div class="lights">
+        <div class="project">
+            <img src="maze.png" height="300px">
+            <div class="description">
+                <p class="project_header">MAZE BUILDER</p>
+                <p class="project_subHeader">Final Project for Programming and Problem Solving</p>
+                <p class="project_text">
+We developed a maze builder that generates a grid with the number of rows and columns the user specifies initially. Using the coordinate system you 'break down' walls to create a maze, and when a path from start to an end, created by the user, exists, the program is finished.</p>
+                <div class="c">C</div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="superHyperBuff.png" height="300px">
+            <div class="description">
+                <p class="project_header">SUPER HYPER BUFF</p>
+                <p class="project_subHeader">Code Day BA Hackathon</p>
+                <p class="project_text">
+Facilitated a team of five to create a game and collaborated with design students to create a more vivid game. You can earn points by beating enemies, you have a set number of lives, you can power up, and as the game progresses, the enemies span faster. We won first place in game development.</p>
+            </div>
+            <p><div class="js">JavaScript</div>
+            <div class="css">CSS</div>
+            <div class="html">HTML</div>
+        </div>
+    </div>
+    
+    <!--About Me-->
+    <div class="tree"><a name="ABOUTME"></a>
+        <div id="about_me_header">About Me</div>
+        <p id="about_me">Hello there!<br/>
+My name is Jedi Pak, an undergraduate currently attending California Polytechnic Sate University in the beautiful city of San Luis Obispo.<br/>
+
+I'm working towards my Bachelor of Science degree in Software Engineering as well as my minors in math and in data science.<br/>
+
+I enjoy working towards a common goal with many different peers, collaborating with my team members, and problem-solving.<br/>
+
+In my spare time, I love to cook new recipies, surf on the beautiful California coast, paint landscapes with watercolor, and meet new people.<br/>
+
+If you would to just chat, ask a question, or get more information please email me at pak.j.jedi@gmail.com</p>
+    </div>
+    
+    <!--Contact-->
+    <div id="contact">
+        <div align="center" id="logos">
+            <a class="logo" href="https://github.com/JediPak">
+                <img title="Github" alt="Github" src="github_logo.png" width="35" height="35" />
+            </a>
+            <a class="logo" href="https://linkedin.com/in/jedi-pak">
+                <img title="LinkedIn" alt="LinkedIn" src="linkedin_logo.png" width="35" height="35" />
+            </a>
+            <a class="logo" href="mailto:pak.j.jedi@gmail.com">
+                <img title="Mail" alt="Mail" src="mail_logo.png" width="35" height="35" />
+            </a>
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>

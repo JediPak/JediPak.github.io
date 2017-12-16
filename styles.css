@@ -1,0 +1,99 @@
+
+<style type="text/css">
+        body {
+            padding:0px;
+            margin:-100px;
+        }
+        .fixed-bg {
+            /*background-image: url("city_by_madspartan013-d5etmml.jpg");*/
+            background-image: url("night_star.jpg");
+            min-height: 600px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            padding-top: 20%;
+        }
+        .clear {
+            background-color : transparent;
+            width: 0;
+            height: 0;
+        }
+        .lights {
+            height:800px;
+             /*background-image: url("bleak_house_by_mattiasa.jpg");*/
+            background-image: url("lights.jpg");
+            background-size: cover;
+            margin-top: -13%;
+        }
+        .tree {
+            height:800px;
+             /*background-image: url("bleak_house_by_mattiasa.jpg");*/
+            background-image: url("tree.jpg");
+            background-size: cover;
+        }
+        #about_me {
+            height:100px;
+            background-color: black;
+        }
+        #logos img{
+            margin: auto;
+            background-color: clear;
+            margin: 0.5%;
+            position: center;
+            
+        }
+        .logo:hover img{
+            transform: scale(1.25);
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 98.755%; /* Full width */
+            height: 15%;
+            font-family: 'Poiret One', cursive;
+            font-size: 20px;
+
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: -5px 16px;
+            text-decoration: none;
+        }
+        .links {
+            margin: 50px;
+        }
+        .links:hover {
+            color: #f2f2f2;
+            font-weight: bolder;
+        }
+        .para {
+            /*text-align: center;   */
+            width: 80%;
+            background-color: clear;
+            margin-left: 10%;
+            margin-top: -10%;
+        }
+        .header {
+            color: azure; 
+            font-size: 1000%;
+            margin-top: 10%;
+        }
+        .project {
+            padding-top: 100px;
+            padding-left: 100px;
+            background-color: clear;
+            float: left;
+        }
+        .project:hover img{
+            transform: scale(1.25);
+        }
+        
+        
+
+    </style>
