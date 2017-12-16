@@ -35,6 +35,7 @@
         .contact {
             height:100px;
             background-color: black;
+            background-size: cover;
         }
         #about_me {
             height:100px;
