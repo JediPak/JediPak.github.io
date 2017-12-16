@@ -32,14 +32,9 @@
             background-image: url("tree.jpg");
             background-size: cover;
         }
-        .contact {
-            height:50px;
-            background-color: orange;
-            background-size: cover;
-        }
-        #about_me {
+        #contact {
             height:100px;
-            background-color: green;
+            background-color: black;
         }
         #logos img{
             margin: auto;
@@ -90,15 +85,106 @@
             margin-top: 10%;
         }
         .project {
-            padding-top: 100px;
-            padding-left: 100px;
+            height: 200px;
+            width: 45%;
             background-color: clear;
             float: left;
         }
-        .project:hover img{
-            transform: scale(1.25);
+        .project img {
+            height: 110%;
+            margin-top: 17%;
+            margin-left: 15%;
+            margin-right: 0%;
+            padding:1%;
+            background-color: #ffdb58;
+            align-content: center;
         }
-        
-        
+
+        .project img:hover{
+            transform: scale(1.10);
+        }
+        .description {
+            width: 50%;
+            margin-left:80px;
+            margin-right: 100px;
+        }
+        .project_header {
+            padding-top: -5%;
+            color: #2f9fc7;
+            font-size: 40px;
+            width: 180%;
+            font-family: 'Rubik Mono One', sans-serif;
+        }
+        .project_subHeader {
+            color: #778899;
+            width: 150%;
+            font-size: 20px;
+            font-family: 'Playfair Display SC', serif;
+        }
+        .project_text {
+            color: #f2f2f2;
+            width: 150%;
+            background: rgba(0,0,0,0.5);
+        }
+        .c {
+            border-radius: 5px;
+            background-color: #2f9fc7;
+            color: white;
+            font-size: 20px;
+            width: 18px;
+            padding-left: 3px;
+            padding-right: 1px;
+        }
+        .js {
+            border-radius: 5px;
+            background-color: #2f9fc7;
+            color: white;
+            font-size: 20px;
+            width: 85px;
+            padding-left: 3px;
+            margin-left: 14%;
+            padding-right: 1px;
+            margin-right: 1%;
+            float: left;
+        }
+        .css {
+            border-radius: 5px;
+            background-color: #2f9fc7;
+            color: white;
+            font-size: 20px;
+            width: 37px;
+            padding-left: 3px;
+            padding-right: 1px;
+            margin-right: 1%;
+            float: left;
+        }
+        .html {
+            border-radius: 5px;
+            background-color: #2f9fc7;
+            color: white;
+            font-size: 20px;
+            width: 58px;
+            padding-left: 3px;
+            padding-right: 1px;
+            float: left;
+        }
+        #about_me {
+            width: 50%;
+            border-radius: 5px;
+            margin: auto;
+            color: #f2f2f2;
+            margin-top: -10%;
+            background-color: rgba(203,231,165, 0.5);
+        }
+        #about_me_header {
+            font-size: 1000%;
+            color: #cbe7a5;
+            text-align: center;
+            height: 50%;
+            padding-top: 10%;
+            font-family: 'Playfair Display SC', serif;
+            padding-bottom: -115%;
+        }
+
 
     </style>
