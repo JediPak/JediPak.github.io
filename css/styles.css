@@ -32,6 +32,10 @@
             background-image: url("tree.jpg");
             background-size: cover;
         }
+        .contact {
+            height:100px;
+            background-color: black;
+        }
         #about_me {
             height:100px;
             background-color: black;
